@@ -12,20 +12,28 @@
 		</view>
 		<!-- 头部导航 -->
 		<scroll-view class="scroll-container" scroll-x="true" enable-flex >
-		<view class="scroll-item" :class="{active:navIndex === -1}" @click="changNav(-1)" >
-				推荐
-			</view>
-			<view class="scroll-item" :class="{active:navIndex === index}" @click="changNav(index)" v-for="(item,index) in kongKongList" :key="item.L1Id">
-				{{item.text}}
-			</view>
+			<view class="scroll-item" :class="{active:navIndex === -1}" @click="changNav(-1)" >
+					推荐
+				</view>
+				<view class="scroll-item" :class="{active:navIndex === index}" @click="changNav(index)" v-for="(item,index) in kongKongList" :key="item.L1Id">
+					{{item.text}}
+				</view>
 		</scroll-view>
+		<!-- 轮播图 -->
+		<Recommend></Recommend>
+		
 	</view>
 </template>
 
 <script>
 import request from "../../utils/request";
 import {mapState,mapActions} from "vuex";
+// 自定义组件
+import Recommend from "@/components/Recommend/Recommend.vue";
 export default {
+	components:{
+		Recommend,
+	},
 	data() {
 		return {
 			navIndex:-1,//头部导航默认显示数据项

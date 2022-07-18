@@ -1,0 +1,84 @@
+.recommend-container .swiper-item.data-v-0614d904 {
+  width: 100%;
+  height: 350rpx;
+}
+.recommend-container .swiper-item .pic.data-v-0614d904 {
+  width: 100%;
+  height: 350rpx;
+}
+.recommend-container .assure-list.data-v-0614d904 {
+  display: flex;
+  justify-content: space-around;
+  margin: 20rpx 0;
+}
+.recommend-container .assure-list .assure-item .pic.data-v-0614d904 {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+.recommend-container .assure-list .assure-item .content.data-v-0614d904 {
+  font-size: 24rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.recommend-container .kingkong-list.data-v-0614d904 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recommend-container .kingkong-list .kingkong-item.data-v-0614d904 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rpx;
+}
+.recommend-container .kingkong-list .kingkong-item .kingkong-pic.data-v-0614d904 {
+  width: 110rpx;
+  height: 110rpx;
+}
+.recommend-container .kingkong-list .kingkong-item .kingkong-title.data-v-0614d904 {
+  font-size: 26rpx;
+}
+.category.data-v-0614d904 {
+  margin: 5rpx 0;
+}
+.category .category-show.data-v-0614d904 {
+  width: 100%;
+  height: 370rpx;
+}
+.category .category-list.data-v-0614d904 {
+  display: flex;
+  height: 300rpx;
+}
+.category .category-list .category-item.data-v-0614d904 {
+  width: 200rpx;
+  text-align: center;
+  flex-shrink: 0;
+  margin: 0 6rpx;
+}
+.category .category-list .category-item.last.data-v-0614d904 {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #eee;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 200rpx;
+}
+.category .category-list .category-item .pic.data-v-0614d904 {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #eee;
+}
+.category .category-list .category-item .title.data-v-0614d904 {
+  font-size: 26rpx;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.test.data-v-0614d904 {
+  font-size: 0;
+}
+
