@@ -1,0 +1,55 @@
+.header-container {
+  display: flex;
+  padding: 10rpx 0;
+}
+.header-container .logo {
+  width: 140rpx;
+  height: 40rpx;
+  margin: 10rpx 20rpx;
+}
+.header-container .search {
+  width: 420rpx;
+  height: 60rpx;
+  background: #eee;
+  position: relative;
+}
+.header-container .search .iconfont {
+  position: absolute;
+  left: 10rpx;
+  font-size: 30rpx;
+  top: 17rpx;
+}
+.header-container .search .search-input {
+  width: 370rpx;
+  margin-left: 50rpx;
+  height: 60rpx;
+  box-sizing: border-box;
+}
+.header-container .search .search-input .search-placeholder {
+  font-size: 26rpx;
+}
+.header-container .btn {
+  width: 144rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+  padding: 0 4rpx;
+  margin: 0 4rpx;
+}
+.scroll-container {
+  white-space: nowrap;
+}
+.scroll-container .scroll-item {
+  display: inline-block;
+  width: 140rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.scroll-container .scroll-item.active {
+  border-bottom: 1rpx solid #bb2c08;
+}
+.test {
+  font-size: 0;
+}
+
