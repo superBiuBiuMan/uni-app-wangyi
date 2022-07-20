@@ -12,31 +12,37 @@
 		</view>
 		<!-- 头部导航 -->
 		<scroll-view class="scroll-container" scroll-x="true" enable-flex >
-			<view class="scroll-item" :class="{active:navIndex === -1}" @click="changNav(-1)" >
+				<view class="scroll-item" :class="{active:navIndex === -1}" @click="changNav(-1,0)" >
 					推荐
 				</view>
-				<view class="scroll-item" :class="{active:navIndex === index}" @click="changNav(index)" v-for="(item,index) in kongKongList" :key="item.L1Id">
+				<view class="scroll-item" :class="{active:navIndex === index}" @click="changNav(index,item.L1Id)" v-for="(item,index) in kongKongList" :key="item.L1Id">
 					{{item.text}}
 				</view>
 		</scroll-view>
 		<!-- 轮播图 -->
-		<Recommend></Recommend>
-		
+		<scroll-view scroll-y="true">
+			<Recommend v-if="navId === 0"></Recommend>
+			<!-- 列表 -->
+			<CateList v-else :navId="navId"></CateList>
+		</scroll-view>
 	</view>
 </template>
 
 <script>
-import request from "../../utils/request";
+
 import {mapState,mapActions} from "vuex";
 // 自定义组件
 import Recommend from "@/components/Recommend/Recommend.vue";
+import CateList from "@/components/CateList/CateList.vue";
 export default {
 	components:{
 		Recommend,
+		CateList,
 	},
 	data() {
 		return {
 			navIndex:-1,//头部导航默认显示数据项
+			navId:0
 		};
 	},
 	computed:{
@@ -58,14 +64,15 @@ export default {
 		// 映射vuex当中方法
 		...mapActions(["getIndexData"]),
 		//改变nav索引
-		changNav(newIndex){
+		changNav(newIndex,newNavId){
 			this.navIndex = newIndex;
+			this.navId = newNavId;
 		},
 	}
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 // 头部
 .header-container
 	display: flex

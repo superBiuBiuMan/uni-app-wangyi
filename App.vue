@@ -14,9 +14,9 @@
 
 <style lang="stylus">
 	/*每个页面公共css */
-	/* 引入iconfont字体图标 */
+	/* 引入iconfont字体图标 做了处理,都是离线可用*/
 	@import url("static/iconfont/iconfont.styl");
 	page
-		width 100
-		height 100
+		width 100%
+		height 100%
 </style>

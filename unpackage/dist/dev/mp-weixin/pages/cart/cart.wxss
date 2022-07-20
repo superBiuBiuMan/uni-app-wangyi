@@ -1,0 +1,141 @@
+/* iconfont 公共样式 */
+.cartImg {
+  display: block;
+  width: 248rpx;
+  height: 248rpx;
+  margin: 300rpx auto 50rpx;
+}
+.cartContainer {
+  position: relative;
+  background: #f4f4f4;
+  height: 100%;
+}
+.cartContainer .title {
+  font-size: 32rpx;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+}
+.cartContainer .header {
+  display: flex;
+  background: #eee;
+}
+.cartContainer .header text {
+  width: 33.333%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.cartContainer .contentContainer button {
+  width: 480rpx;
+  height: 92rpx;
+  background: #dd1a21;
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 92rpx;
+}
+.cartContainer .contentContainer .addMore {
+  text-align: center;
+  font-size: 26rpx;
+  color: #7f7f7f;
+  line-height: 60rpx;
+}
+.cartContainer .cartList .cartItem {
+  position: relative;
+  display: flex;
+  height: 172rpx;
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.cartContainer .cartList .cartItem .iconfont {
+  font-size: 40rpx;
+  line-height: 172rpx;
+  margin: 0 40rpx;
+  color: #999;
+}
+.cartContainer .cartList .cartItem .iconfont.selected {
+  color: #bb2c08;
+}
+.cartContainer .cartList .cartItem .shopItem {
+  display: flex;
+}
+.cartContainer .cartList .cartItem .shopItem .shopImg {
+  width: 172rpx;
+  height: 172rpx;
+  background: #eee;
+}
+.cartContainer .cartList .cartItem .shopItem .shopInfo {
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.cartContainer .cartList .cartItem .shopItem .shopInfo text {
+  line-height: 60rpx;
+}
+.cartContainer .cartList .cartItem .shopItem .shopInfo .price {
+  color: #bb2c08;
+}
+.cartContainer .cartList .cartItem .countCtrl {
+  position: absolute;
+  right: 20rpx;
+  bottom: 30rpx;
+}
+.cartContainer .cartList .cartItem .countCtrl text {
+  display: inline-block;
+  width: 60rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1rpx solid #eee;
+}
+.cartContainer .cartList .cartItem .countCtrl text:nth-child(2) {
+  border: none;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+}
+.cartContainer .cartFooter {
+  position: absolute;
+  display: flex;
+  bottom: 2rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  width: 100%;
+  background: #fff;
+  font-size: 30rpx;
+}
+.cartContainer .cartFooter .iconfont {
+  font-size: 40rpx;
+  margin: 0 20rpx;
+  color: #999;
+}
+.cartContainer .cartFooter .iconfont.selected {
+  color: #bb2c08;
+}
+.cartContainer .cartFooter .right {
+  height: 96rpx;
+  position: absolute;
+  right: 0;
+}
+.cartContainer .cartFooter .right .totalPrice {
+  display: inline-block;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+.cartContainer .cartFooter .right .preOrder {
+  display: inline-block;
+  background: #dd1a21;
+  width: 225rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #fff;
+  margin-left: 30rpx;
+}
+.cartContainer .hint {
+  text-align: center;
+  font-size: 28rpx;
+}
+

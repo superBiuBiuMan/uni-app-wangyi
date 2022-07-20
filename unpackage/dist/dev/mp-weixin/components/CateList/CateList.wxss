@@ -1,0 +1,49 @@
+.cate-list .swiper-wrapper.data-v-4f826ca4 {
+  width: 100%;
+}
+.cate-list .swiper-wrapper .swiper-pic.data-v-4f826ca4 {
+  width: 100%;
+  height: 370rpx;
+}
+.cate-list .title.data-v-4f826ca4 {
+  font-size: 36rpx;
+  color: #333;
+  line-height: 70rpx;
+  text-align: center;
+}
+.cate-list .desc.data-v-4f826ca4 {
+  font-size: 26rpx;
+  color: #999;
+  text-align: center;
+  line-height: 40rpx;
+}
+.cate-list .shop-list.data-v-4f826ca4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cate-list .shop-list.data-v-4f826ca4:after {
+  content: "";
+  width: 344rpx;
+}
+.cate-list .shop-list .shop-item.data-v-4f826ca4 {
+  width: 344rpx;
+}
+.cate-list .shop-list .shop-item .shop-pic.data-v-4f826ca4 {
+  width: 344rpx;
+  height: 344rpx;
+}
+.cate-list .shop-list .shop-item .shop-desc .common.data-v-4f826ca4 {
+  font-size: 26rpx;
+  line-height: 50rpx;
+  display: block;
+}
+.cate-list .shop-list .shop-item .shop-desc .price.data-v-4f826ca4 {
+  color: #f00;
+  font-weight: bold;
+}
+.cate-list .shop-list .shop-item .shop-desc .price.data-v-4f826ca4:before {
+  content: "¥";
+  margin-right: 10rpx;
+}
+

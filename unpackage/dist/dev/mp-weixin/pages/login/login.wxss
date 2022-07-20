@@ -1,0 +1,33 @@
+.loginContainer {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.loginContainer .logo {
+  width: 300rpx;
+  height: 100rpx;
+  margin-top: 200rpx;
+}
+.loginContainer .text {
+  font-size: 26rpx;
+  color: #666;
+}
+.loginContainer .loginMethods {
+  width: 80%;
+  margin: 150rpx auto;
+  display: flex;
+  justify-content: space-around;
+}
+.loginContainer .loginMethods .login {
+  width: 240rpx;
+  height: 80rpx;
+  background: #41a863;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 26rpx;
+}
+

@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  background: #eed7b5;
+  padding: 40rpx 0;
+}
+.header .userImg {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 50rpx 0 30rpx;
+  background: #fff;
+  border-radius: 50rpx;
+}
+.header .userInfo {
+  flex: 1;
+}
+.header .userInfo .title {
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.header .userInfo .title:first-child {
+  font-size: 28rpx;
+}
+.header .userInfo .title:last-child {
+  font-size: 24rpx;
+}
+.content ._h2 {
+  font-size: 26rpx;
+  line-height: 100rpx;
+  margin-left: 5%;
+}
+.content .line {
+  width: 90%;
+  height: 2rpx;
+  background: #eee;
+  margin: 0 auto;
+}
+.content .myAssetList {
+  width: 90%;
+  margin: 20rpx auto;
+  display: flex;
+}
+.content .myAssetList .assetItem {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+  color: #333;
+  line-height: 40rpx;
+}
+.content .personalList {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1rpx solid #eee;
+}
+.content .personalList .navItem {
+  width: 33.3333%;
+  text-align: center;
+  border-bottom: 1rpx solid #eee;
+  border-right: 1rpx solid #eee;
+  box-sizing: border-box;
+  padding: 30rpx 0;
+}
+.content .personalList .navItem:nth-child(3n) {
+  border-right: none;
+}
+.content .personalList .navItem .iconfont {
+  font-size: 60rpx;
+}
+.content .personalList .navItem ._p {
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+

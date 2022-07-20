@@ -1,18 +1,81 @@
 {
-    "globalStyle" : {
-        "navigationBarTextStyle" : "black",
-        "navigationBarTitleText" : "uni-app",
-        "navigationBarBackgroundColor" : "#F8F8F8",
-        "backgroundColor" : "#F8F8F8"
-    },
-    "uniIdRouter" : {},
-    "pages" : [
-        {
-            "path" : "pages/index/index",
-            "style" : {
-                "navigationBarTitleText" : "",
-                "enablePullDownRefresh" : false
-            }
-        }
-    ]
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "网易严选",
+		"navigationBarBackgroundColor": "#be3f13"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#555",
+		"selectedColor": "#D43C33",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBar/tab-home.png",
+				"selectedIconPath": "static/images/tabBar/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/images/tabBar/tab-cate.png",
+				"selectedIconPath": "static/images/tabBar/tab-cate-current.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/images/tabBar/tab-cart.png",
+				"selectedIconPath": "static/images/tabBar/tab-cart-current.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/images/tabBar/tab-my.png",
+				"selectedIconPath": "static/images/tabBar/tab-my-current.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+		}
+	]
 }

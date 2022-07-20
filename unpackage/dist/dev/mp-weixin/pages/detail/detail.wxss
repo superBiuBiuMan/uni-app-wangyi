@@ -1,0 +1,89 @@
+.detailContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.detailContainer .header {
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #fff;
+  display: flex;
+  text-align: center;
+}
+.detailContainer .header .iconfont {
+  width: 90rpx;
+  height: 90rpx;
+  font-size: 50rpx;
+}
+.detailContainer .header text {
+  flex: 1;
+}
+.detailContainer .header .shopCart {
+  position: relative;
+}
+.detailContainer .header .shopCart .count {
+  color: #f00;
+  position: absolute;
+  top: -25rpx;
+  right: 5rpx;
+  font-size: 26rpx;
+}
+.detailContainer .content {
+  height: calc(100vh - 190rpx);
+}
+.detailContainer .content .detailImg {
+  width: 100%;
+  height: 750rpx;
+}
+.detailContainer .content .tag {
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+  margin: 20rpx auto;
+  background: #bb2c08;
+  border-radius: 10rpx;
+}
+.detailContainer .content .price {
+  font-size: 50rpx;
+  color: #dd1a21;
+  line-height: 70rpx;
+  margin-left: 5%;
+}
+.detailContainer .content .info {
+  font-size: 28rpx;
+  color: #333;
+  margin-left: 5%;
+}
+.detailContainer .detailFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1rpx solid #eee;
+  display: flex;
+  background: #fff;
+}
+.detailContainer .detailFooter .service {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 20rpx 40rpx;
+}
+.detailContainer .detailFooter .btn {
+  width: 305rpx;
+  height: 100%;
+  text-align: center;
+  font-size: 28rpx;
+}
+.detailContainer .detailFooter .btn.buyNow {
+  color: #333;
+  border-left: 1rpx solid #eee;
+}
+.detailContainer .detailFooter .btn.addShopCart {
+  background: #dd1a21;
+  color: #fff;
+}
+
