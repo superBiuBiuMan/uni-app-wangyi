@@ -17,5 +17,5 @@ app.listen("3001",(error)=>{
 		return;
 	}
 	console.log("服务器启动成功");
-	console.log("服务器地址:xxxxxx:3031");
+	console.log("服务器地址:xxxxxx:3001");
 });
